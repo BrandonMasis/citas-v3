@@ -57,17 +57,20 @@ th {
 
   border-right: 1px solid rgba(255, 255, 255, 0.377);
   border-bottom: 1px solid rgba(255, 255, 255, 0.199);
+
+
   
 
 
 }
 
 td {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.322);
+  
   
 }
 
 tr {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.322);
   display: none;
 }
 

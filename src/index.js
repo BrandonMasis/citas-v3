@@ -37,12 +37,7 @@ function getMonthFromString(monthStr) {
 }
 
 function getDisplayHours(dayOfWeek) {
-  if ((dayOfWeek === 4) | (dayOfWeek === 2)) {
-    // Thursday
-    return ['9:00am', '9:00am', '1:00pm', '1:00pm'];
-  } else {
-    return ['9:00am', '9:00am', '2:00pm', '2:00pm', '5:00pm'];
-  }
+  return ['9:00am', '9:00am', '2:00pm', '2:00pm', '5:00pm'];
 }
 
 function displayDates(end, month) {

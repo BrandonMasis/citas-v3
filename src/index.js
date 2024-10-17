@@ -28,7 +28,16 @@ let allAppointments = localStorage.getItem('appointments')
   : {};
 if (!localStorage.getItem('appointments')) {
   for (let i = 1; i <= endActualMonth; i++) {
-    allAppointments[i] = { a: false, b: false, c: false, d: false, e: false };
+    allAppointments[i] = {
+      a: false,
+      b: false,
+      c: false,
+      d: false,
+      e: false,
+      f: false,
+      g: false,
+      h: false,
+    };
   }
 }
 
@@ -37,7 +46,7 @@ function getMonthFromString(monthStr) {
 }
 
 function getDisplayHours(dayOfWeek) {
-  return ['9:00am', '9:00am', '2:00pm', '2:00pm', '5:00pm'];
+  return ['9:00am', '9:00am', '9:00am', '2:00pm', '2:00pm', '2:00pm', '5:00pm'];
 }
 
 function displayDates(end, month) {
